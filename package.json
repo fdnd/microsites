@@ -1,0 +1,29 @@
+{
+  "name": "microsites",
+  "version": "0.0.1",
+  "description": "It aggregates the fdnd organisation and creates a Readme.md and a footer.html component.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdnd/microsites.git"
+  },
+  "keywords": [
+    "nodejs",
+    "html",
+    "graphql"
+  ],
+  "author": "J.P. Sturkenboom <j.p.sturkenboom@hva.nl>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fdnd/microsites/issues"
+  },
+  "homepage": "https://github.com/fdnd/microsites#readme",
+  "dependencies": {
+    "@octokit/graphql": "^5.0.1",
+    "dotenv": "^16.0.3"
+  }
+}
